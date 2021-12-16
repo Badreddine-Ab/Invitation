@@ -1,11 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
-    padding: 5px;
-    font-family: 'Source Sans 3', sans-serif;
+    padding: 1px;
+    font-family: 'Roboto', sans-serif;
+    margin: 1px;
+    box-sizing: border-box;
+
 }
+/* ***************************************************************BADREDDINE************************************************************ */
 .sponsors{
     display: flex;
+    margin: 100px;
 }
+
 .sponsors input{
 margin-right: 300px;
 }
@@ -15,33 +21,49 @@ margin-right: 300px;
     margin-right: 40px;
 }
 
+.title{
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em
+}
+article.part2Paragraph{
+    padding: 4px;
+    margin: 4!important;
+
+}
 .illustration{
-    height: 50vw;
-    width: 27vw;
+    
+    width: 25vw;
 }
 
 section{
     margin: 3px;
 }
  
-
-h2{
-    margin-left: auto;
-    margin-right: auto;
-    width: 10em;
-}
-
-
 .part2Pics{
     width: 40%;
 }
 
 .part2{
-    display: flex;
-    
+    display: flex;   
+}
+.space{
+    padding:15px;
+    margin: 20px;
+}
+.checkmark{
+    height: 30px;
+    transform: translate(0px,5px);
+}
+.button{
+    margin: 25px;
 }
 
-
+.part2button:hover{
+    color: black;
+    cursor: pointer;
+}
 
 .part2button{
     text-align: center;
@@ -53,4 +75,179 @@ h2{
     padding: 8px;
     color: white;
     border: none;
+}
+
+/* **********************KHALIL******************** */
+a:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+a{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+li a:hover
+{
+    background-color: rgba(255, 255, 255, 0.445);
+}  
+#Container
+{
+    display: flex;   
+}
+
+nav > ul 
+{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 191px;
+}
+nav  li 
+{
+    float: left;
+} 
+nav li a .dropbtn 
+{
+    margin-top: 14px;
+    padding-left: 191px;   
+}
+nav li a, .dropbtn 
+{
+    margin-top: 14px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+} 
+nav li a:hover, .dropdown:hover .dropbtn 
+{
+    background-color: rgba(150, 131, 131, 0.445);
+}
+nav li.dropdown 
+{
+    display: inline-block;
+}
+nav .dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}  
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover 
+{
+    background-color: #f1f1f1;
+}
+ 
+nav .dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+.Button 
+{
+    margin-top: 35px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin: 35px;
+}
+.DescAndSocialIcon 
+{ 
+   display: flex;
+   flex-direction: column;
+   width: 500px;
+   flex:2;
+}
+.SocialIcon 
+{
+    margin-top: 150px;
+}
+#ContainerFooter
+{
+    margin-top: 10px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.LeftSide p{
+    font-size: 20px;
+    position: absolute;
+    padding: 3px;
+}
+#footer-top-area-con{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    align-content: center;
+}
+.LeftSide
+{
+    flex:2;
+}
+.MiddleSide{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.MiddleSide a
+{
+    display: inline-block;
+    padding: 0.5em 0px;
+    color: white;
+}
+.MiddleSide > *{
+    flex: 1;
+}
+.MiddleSide ul
+{
+    display: inline-block;
+    width: 24%;
+    vertical-align: start;
+}
+footer li
+{
+    list-style-type: none;
+    padding:4px ;
+}
+.SocialIcon li
+{
+    display: inline-block;
+    background-color: white;
+}
+footer >p
+{
+    text-align: center;
+    width: 100%;
+}
+footer
+{
+    font-size: small;
 }
