@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@500&display=swap');
+*{
+    padding: 5px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.sponsors{
+    display: flex;
+}
+.sponsors input{
+margin-right: 300px;
+}
+.SponsorsLogo{
+    width: 13vw;
+    height: 3vw;
+    margin-right: 40px;
+}
+
+.illustration{
+    height: 50vw;
+    width: 27vw;
+}
+
+section{
+    margin: 3px;
+}
+ 
+
+h2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+}
+
+
+.part2Pics{
+    width: 40%;
+}
+
+.part2{
+    display: flex;
+    
+}
+
+
+
+.part2button{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    display: grid;
+    background: linear-gradient( to left,purple, orangered);
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    border: none;
+}
