@@ -1,44 +1,109 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Lato:ital,wght@1,400;1,900&family=Lexend+Deca&family=Poppins&family=Rubik:wght@600&family=Work+Sans:wght@900&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap%27');
 *{
-    padding: 1px;
-    margin: 1px;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
-
-#Container{
-    margin-top: 20px;
+main{
     display: flex;
-    
+    margin: 100px;
+}
+.image img{
+width: 300px;
+}
+#text{
+    margin-top: 100px;
+    font-size: 25px;
+    color: #707070;
+}
+strong{
+    color: black;
+}
+.sig{  
+    margin-bottom: 10px;
+    color: black;
+    font-size: large;  
+}
+#formulaire{
+   display: flex;
+   flex-direction: column;
+   background-color: #E2E2E2;
+   color:#8B8B8B ;
+   padding: 40px 20px 0px;
+   padding-bottom: 10px;
+   margin-left: 170px;
+   border: 2px solid #707070;
+   border-radius: 5px;
+}
+input{
+
+    width: 250px;
+    height: 35px;
+    border: solid 2px #707070;
+    border-radius: 5px;   
+    margin-bottom: 15px;
+}
+.signup{
+    width: 100px;
+    height: 35px;
+    margin-left: 80px;
+    background-color: black;
+    color: rgb(248, 248, 248);
+    font-weight: bold;
+    border: 2px solid #707070;
+    border-radius: 5px;
+    border: none;
+}
+.sameLine{
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+.sameLine button{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    border: 2px solid #707070;
+    border-radius: 5px;
+    border: none; 
+    margin-left: 70px;
+}
+.have{
+    font-size: smaller;
+}
+.rights{
+    padding-left: 50px;
+    font-size: 10px;
+    padding-top: 10px;
+    color: black;
+}
+#Container{
+    margin-left: 70px;
+    margin-top: 20px;
+    display: flex;  
+}
+.navigation{
+    margin-top: -20px;
 }
 h1 {
     padding-left: 37px;
-
-
     color: black;
 }
-/**********/
-/**********/
-
-
-/**********/
 nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     padding-left: 191px;
-
-   
   }
-  
  nav  li {
     float: left;
   }
-  
    nav li a, .dropbtn {
-       margin-top: 14px;
+    margin-top: 14px;
     display: inline-block;
     color: white;
     text-align: center;
@@ -46,25 +111,18 @@ nav > ul {
     text-decoration: none;
     color: rgb(0, 0, 0);
   }
-  
    nav li a:hover, .dropdown:hover .dropbtn {
     background-color: rgba(150, 131, 131, 0.445);
   }
-  /********/
   li a:hover{
     background-color: rgba(255, 255, 255, 0.445);
-
   }
-  
-  /********/
    nav li.dropdown {
     display: inline-block;
   }
   a{
-      text-decoration: none;
-   
+      text-decoration: none; 
   }
-  
  nav .dropdown-content {
     display: none;
     position: absolute;
@@ -73,7 +131,6 @@ nav > ul {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  
   nav .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -81,13 +138,10 @@ nav > ul {
     display: block;
     text-align: left;
   }
-  
    nav .dropdown-content a:hover {background-color: #f1f1f1;}
-  
   nav .dropdown:hover .dropdown-content {
     display: block;
   }
-/*********/
 footer{
     margin-top: 20px;
   
@@ -96,14 +150,10 @@ footer{
    display: flex;
    flex-direction: column;
    width: 500px;
-   flex:2;
-  
+   flex:2;  
 }
 .SocialIcon {
-    margin-top: 100px;
-}
-.imageOfHeader{
-    flex: ;
+    margin-top: 50px;
 }
 #ContainerFooter{
     margin-top: 10px;
@@ -112,14 +162,10 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
-
-
 }
-
 .LeftSide p{
     font-size: 20px;
 }
-
 #footer-top-area-con{
     color: white;
     background-color: black;
@@ -128,9 +174,10 @@ footer{
     flex-wrap: nowrap;
     justify-content: space-between;
     margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 100px;
     padding: 20px;
     margin-top: 10px;
-    padding: 20px;
     align-content: center;
 }
 #footer-top-area-con .LeftSide{
@@ -141,7 +188,6 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-
 }
 #footer-top-area-con  .MiddleSide > *{
     flex: 1;
@@ -152,7 +198,6 @@ footer{
     width: 24%;
     vertical-align: start;
 }
-
 #footer-top-area-con .RightSideImage{
     flex:1.5;
 }
@@ -178,16 +223,8 @@ footer >p{
     text-align: center;
     width: 100%;
 }
-/* 
-.RightSideImage{
-    position: relative;
+footer
+{
+    
+    font-size: small;
 }
-   .RightSideImage img{
-    --size:17em;
-    position: absolute;
-    bottom: 0px;
-    right: 3em;
-    width: calc(var(--size)*1.6);
-    height: var(--size);
-}       */
-
