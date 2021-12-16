@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     padding: 5px;
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 6px;
+    box-sizing: border-box;
 }
+/* ***************************************************************BADREDDINE************************************************************ */
 .sponsors{
     display: flex;
 }
@@ -15,9 +18,13 @@ margin-right: 300px;
     margin-right: 40px;
 }
 
+article.part2Paragraph{
+    padding: 1px;
+
+}
 .illustration{
-    height: 50vw;
-    width: 27vw;
+    
+    width: 25vw;
 }
 
 section{
@@ -41,6 +48,9 @@ h2{
     
 }
 
+.button{
+    margin: 25px;
+}
 
 
 .part2button{
@@ -53,4 +63,186 @@ h2{
     padding: 8px;
     color: white;
     border: none;
+}
+
+/*  **************************************************************KHALID*************************************************************** */
+
+#Container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logo li h1 {
+
+    color: black;
+}
+/**********/
+/**********/
+
+
+/**********/
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+  
+ nav  li {
+    float: left;
+  }
+  
+   nav li a, .dropbtn {
+       margin-top: 14px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+   nav li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(150, 131, 131, 0.445);
+  }
+  /********/
+  li a:hover{
+    background-color: rgba(255, 255, 255, 0.445);
+
+  }
+  
+  /********/
+   nav li.dropdown {
+    display: inline-block;
+  }
+  a{
+      text-decoration: none;
+   
+  }
+  
+ nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  nav .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+   nav .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  nav .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/*********/
+footer{
+    margin-top: 20px;
+  
+}
+.DescAndSocialIcon { 
+   display: flex;
+   flex-direction: column;
+   width: 500px;
+   flex:2;
+  
+}
+.SocialIcon {
+    margin-top: 100px;
+}
+.imageOfHeader{
+    flex: ;
+}
+#ContainerFooter{
+    margin-top: 10px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+
+
+}
+
+.LeftSide p{
+    font-size: 20px;
+}
+
+#footer-top-area-con{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    align-content: center;
+}
+#footer-top-area-con .LeftSide{
+    flex:2;
+}
+#footer-top-area-con  .MiddleSide{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+#footer-top-area-con  .MiddleSide > *{
+    flex: 1;
+}
+
+#footer-top-area-con .MiddleSide ul{
+    display: inline-block;
+    width: 24%;
+    vertical-align: start;
+}
+
+#footer-top-area-con .RightSideImage{
+    flex:1.5;
+}
+footer .MiddleSide a{
+    display: inline-block;
+    padding: 0.5em 0px;
+    color: white;
+}
+
+#footer-top-area-con > *{
+    margin: 1px;
+
+}
+footer li{
+    list-style-type: none;
+    padding:4px ;
+}
+.SocialIcon li{
+    display: inline-block;
+    background-color: white;
+}
+footer >p{
+    text-align: center;
+    width: 100%;
+}
+.RightSideImage{
+    position: relative;
+}
+.RightSideImage img{
+    --size:17em;
+    position: absolute;
+    bottom: 0px;
+    right: 3em;
+    width: calc(var(--size)*1.6);
+    height: var(--size);
 }
