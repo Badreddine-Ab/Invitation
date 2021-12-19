@@ -475,4 +475,40 @@ footer
     max-width: 290px;
 }
 
+@media screen and (max-width: 420px) {
+   
+    header{
+        display: none;
+    }
 
+    footer{
+        display: none;
+    }
+
+    .noulamin{
+        display: none;
+    }
+    .dd{
+        display: none;
+    }
+
+    .sponsors{
+        flex-direction: column;
+        margin: 72px;
+        transform: translate(-24px,-33px);
+    }
+    .SponsorsLogo{
+        padding: 14px;
+        height: 29vw;
+        width: 74vw;
+        margin: 8px;
+   }
+
+   .part2{
+    display: block;   
+}
+
+.illustration{
+    width: 86vw;
+}
+}
