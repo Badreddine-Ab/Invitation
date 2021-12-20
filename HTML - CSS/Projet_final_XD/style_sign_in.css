@@ -1,0 +1,454 @@
+/* ************************SAFIA********************* */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap%27');
+*
+{
+    font-family: 'Roboto', sans-serif;
+    /* padding: 1px;
+    margin: 1px; */
+    box-sizing: border-box;
+}
+main
+{
+    display: flex;
+    margin: 10px 100px 50px ;
+}
+.image img
+{
+    width: 300px; 
+}
+.text
+{
+    color: #707070;
+    font-size: 25px;
+    margin-top: 40px;
+} 
+strong
+{
+    color: black;
+}
+h1
+{
+    padding-left: 100px;
+    color: black;
+}
+h2
+{
+    color: black;
+} 
+#formulaire
+{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #707070;
+    border-radius: 5px;
+    color: #8B8B8B;
+    background-color: #E2E2E2;
+    margin-left: 150px;
+    padding: 40px 20px 0px ;
+}
+input
+{
+    width: 250px; 
+    height: 35px;
+    border: 2px solid #707070;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#logIn
+{
+    width: 100px;
+    height: 35px;
+    color: #707070;
+    background-color: white;
+    font-weight: bold;
+    border: 2px solid;
+    border-color: #707070;
+    border-radius: 5px;
+    margin : 0px 80px;
+}
+#signUp
+{
+    color: white;
+    font-size: 10px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 20px;
+    margin-left: 30px;
+}
+#sameLine
+{
+    display: flex;
+}
+#rights
+{
+    color: black;
+    font-size: 10px;
+    margin-left: 40px;
+}
+a:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+a
+{
+    color: #8B8B8B;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+/* **********************KHALIL******************** */
+li a:hover
+{
+    background-color: rgba(255, 255, 255, 0.445);
+}  
+#Container
+{
+    margin-top: 20px; 
+    display: flex;   
+}
+nav > ul 
+{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 191px;
+}
+nav  li 
+{
+    float: left;
+} 
+nav li a .dropbtn 
+{
+    margin-top: 14px;
+    padding-left: 191px;   
+}
+nav li a, .dropbtn 
+{
+    margin-top: 14px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+} 
+nav li a:hover, .dropdown:hover .dropbtn 
+{
+    background-color: rgba(150, 131, 131, 0.445);
+}
+nav li.dropdown 
+{
+    display: inline-block;
+}
+nav .dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}  
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover 
+{
+    background-color: #f1f1f1;
+}
+ 
+nav .dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+.Button 
+{
+    margin-top: 35px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin: 35px;
+}
+.DescAndSocialIcon 
+{ 
+   display: flex;
+   flex-direction: column;
+   width: 500px;
+   flex:2;
+}
+.SocialIcon 
+{
+    margin-top: 150px;
+}
+#ContainerFooter
+{
+    margin-top: 10px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.LeftSide p{
+    font-size: 20px;
+    position: absolute;
+    padding: 3px;
+}
+#footer-top-area-con{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    align-content: center;
+}
+.LeftSide
+{
+    flex:2;
+}
+.MiddleSide{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.MiddleSide a
+{
+    display: inline-block;
+    padding: 0.5em 0px;
+    color: white;
+}
+.MiddleSide > *{
+    flex: 1;
+}
+.MiddleSide ul
+{
+    display: inline-block;
+    width: 24%;
+    vertical-align: start;
+}
+footer li
+{
+    list-style-type: none;
+    padding:4px ;
+}
+.SocialIcon li
+{
+    display: inline-block;
+    background-color: white;
+}
+footer >p
+{
+    text-align: center;
+    width: 100%;
+}
+footer
+{
+    margin: 10px 70px 0px ;
+    font-size: small;
+}
+@media screen and (max-width: 500px)
+{
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap%27');
+*
+{
+    font-family: 'Roboto', sans-serif;
+    padding: 1px;
+    margin: 1px; 
+    box-sizing: border-box;
+}
+main
+{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+#TextAndImage
+{
+    padding-left: 90px;
+    width: 400px;
+}
+.image img
+{
+    display: none; 
+}
+.text
+{
+    color: #707070;
+    font-size: 15px;
+    margin-left: 5px;
+} 
+strong
+{
+    color: black;
+}
+h1
+{
+    padding-left: 100px;
+    color: black;
+}
+h2
+{
+    color: black;
+} 
+#formulaire
+{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #707070;
+    border-radius: 5px;
+    color: #8B8B8B;
+    background-color: #E2E2E2;
+    padding: 40px 20px 0px ;
+}
+input
+{
+    width: 250px; 
+    height: 35px;
+    border: 2px solid #707070;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+#logIn
+{
+    width: 100px;
+    height: 35px;
+    color: #707070;
+    background-color: white;
+    font-weight: bold;
+    border: 2px solid;
+    border-color: #707070;
+    border-radius: 5px;
+    margin : 0px 80px;
+}
+#signUp
+{
+    color: white;
+    font-size: 10px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 20px;
+    margin-left: 30px;
+}
+#sameLine
+{
+    display: flex;
+}
+#rights
+{
+    color: black;
+    font-size: 10px;
+    margin-left: 40px;
+}
+a:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+a
+{
+    color: #8B8B8B;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+section
+{
+    display: flex;
+    flex-direction: column;
+}
+/* **********************KHALIL******************** */  
+header
+{
+    color: white;
+    background-color: rgb(103, 103, 163);
+    width: 500px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+.navigation
+{
+    display: none;
+}
+.DescAndSocialIcon 
+{ 
+   display: none;
+}
+.SocialIcon 
+{
+    display: none;
+}
+.LeftSide p{
+   display: none;
+}
+#footer-top-area-con{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    align-content: center;
+}
+.MiddleSide{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.MiddleSide a
+{
+    display: inline-block;
+    padding: 0.5em 0px;
+    color: white;
+}
+.MiddleSide > *{
+    flex: 1;
+}
+.MiddleSide ul
+{
+    display: inline-block;
+    width: 24%;
+    vertical-align: start;
+}
+footer li
+{
+    list-style-type: none;
+    padding:4px ;
+}
+footer >p
+{
+    text-align: center;
+    width: 100%;
+}
+footer
+{
+    margin: 10px 70px 0px ;
+    font-size: small;
+} 
+}
